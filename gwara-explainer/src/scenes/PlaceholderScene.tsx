@@ -8,7 +8,7 @@ export const PlaceholderScene: React.FC<{ label: string }> = ({ label }) => {
   return (
     <AbsoluteFill
       style={{
-        backgroundColor: COLORS.navy,
+        backgroundColor: COLORS.blue,
         fontFamily: FONT_FAMILY,
         justifyContent: "center",
         alignItems: "center",

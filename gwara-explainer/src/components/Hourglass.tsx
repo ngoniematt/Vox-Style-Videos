@@ -5,8 +5,15 @@ export const Hourglass: React.FC<{
   width: number;
   height: number;
   color?: string;
+  sandColor?: string;
   fillProgress: number;
-}> = ({ width, height, color = "#0b2333", fillProgress }) => {
+}> = ({
+  width,
+  height,
+  color = "#1f2937",
+  sandColor = "#2f7ff2",
+  fillProgress,
+}) => {
   const w = width;
   const h = height;
   const neck = w * 0.14;
@@ -34,7 +41,7 @@ export const Hourglass: React.FC<{
         y={h * 0.06}
         width={w}
         height={topSandHeight}
-        fill="#e67e22"
+        fill={sandColor}
         clipPath="url(#hourglass-top)"
       />
       <rect
@@ -42,7 +49,7 @@ export const Hourglass: React.FC<{
         y={h * 0.94 - bottomSandHeight}
         width={w}
         height={bottomSandHeight}
-        fill="#e67e22"
+        fill={sandColor}
         clipPath="url(#hourglass-bottom)"
       />
 

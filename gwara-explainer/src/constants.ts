@@ -3,11 +3,11 @@ export const WIDTH = 1080;
 export const HEIGHT = 1920;
 
 export const COLORS = {
-  navy: "#1a5276",
-  navyDark: "#12384f",
+  blue: "#2f7ff2", // primary — medium, bright blue (not navy-dark)
+  blueLight: "#8fc2ff", // lighter blue, for secondary bars / split bg
+  blueSoft: "#eaf3ff", // near-white blue tint, for card fills / bg
   white: "#ffffff",
-  accent: "#e67e22",
-  ink: "#0b2333",
+  ink: "#1f2937", // near-black slate for body text, not navy
 };
 
 export const FONT_FAMILY =

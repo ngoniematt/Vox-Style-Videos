@@ -7,7 +7,7 @@ export const MarkerCircle: React.FC<{
   color?: string;
   strokeWidth?: number;
   progress: number;
-}> = ({ width, height, color = "#e67e22", strokeWidth = 10, progress }) => {
+}> = ({ width, height, color = "#2f7ff2", strokeWidth = 10, progress }) => {
   const dash = 1 - Math.max(0, Math.min(1, progress));
 
   return (

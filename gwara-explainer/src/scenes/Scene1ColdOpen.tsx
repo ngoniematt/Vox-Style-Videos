@@ -76,7 +76,7 @@ export const Scene1ColdOpen: React.FC = () => {
         }}
       >
         <div style={{ position: "relative" }}>
-          <PaperCard width={430} height={128} fill={COLORS.navy} rotate={-2} seed={3} />
+          <PaperCard width={430} height={128} fill={COLORS.blue} rotate={-2} seed={3} />
           <TapeStrip width={90} height={28} rotate={-10} style={{ position: "absolute", top: -14, left: 30 }} />
           <div
             style={{
@@ -114,7 +114,7 @@ export const Scene1ColdOpen: React.FC = () => {
         }}
       >
         <div style={{ position: "relative" }}>
-          <PaperCard width={420} height={128} fill={COLORS.accent} rotate={2} seed={6} />
+          <PaperCard width={420} height={128} fill={COLORS.blueLight} rotate={2} seed={6} />
           <div
             style={{
               position: "absolute",
@@ -124,7 +124,7 @@ export const Scene1ColdOpen: React.FC = () => {
               justifyContent: "center",
               fontSize: 52,
               fontWeight: 800,
-              color: COLORS.white,
+              color: COLORS.ink,
               letterSpacing: -0.5,
               padding: "0 10px",
               textAlign: "center",
@@ -164,7 +164,7 @@ export const Scene1ColdOpen: React.FC = () => {
                 position: "relative",
                 fontSize: 23,
                 fontWeight: 700,
-                color: COLORS.navy,
+                color: COLORS.blue,
                 padding: "16px 23px",
                 whiteSpace: "nowrap",
               }}
@@ -240,7 +240,13 @@ export const Scene1ColdOpen: React.FC = () => {
           transform: `scale(${interpolate(hourglassIn, [0, 1], [0.7, 1])})`,
         }}
       >
-        <Hourglass width={260} height={340} color={COLORS.ink} fillProgress={sandProgress} />
+        <Hourglass
+          width={260}
+          height={340}
+          color={COLORS.ink}
+          sandColor={COLORS.blue}
+          fillProgress={sandProgress}
+        />
       </div>
 
       {/* Context card */}
@@ -265,7 +271,7 @@ export const Scene1ColdOpen: React.FC = () => {
               position: "relative",
               fontSize: 40,
               fontWeight: 700,
-              color: COLORS.navyDark,
+              color: COLORS.ink,
               lineHeight: 1.35,
               textAlign: "center",
               padding: "40px 50px",
