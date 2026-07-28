@@ -1,25 +1,25 @@
 GWARA — VOICEOVER SCRIPT (for recording or TTS)
 Plain spoken sentences, one scene per block, matches the on-screen sequence exactly.
-Runtime target: 60-75 seconds total.
+Runtime target: 70 seconds total.
 
 ---
 
 SCENE 1 — COLD OPEN (0:00-0:10)
 Every term. Every subject.
-Sixteen. That's how many schemes of work one teacher has to write by hand — every single term.
-Mathematics. Physics. Computer science. Across six forms.
+Mathematics. Physics. Computer science.
+One teacher. Six forms. Written by hand, every single term.
 
 SCENE 2 — STAKES (0:10-0:20)
-Each scheme takes roughly three hours to write.
-Sixteen schemes. Almost fifty hours. In one term. For one teacher.
+Each scheme takes roughly three hours to write. That time keeps stacking up, scheme after scheme, all term long.
+Almost fifty hours. In one term. For one teacher.
 
 SCENE 3 — THE TURN (0:20-0:28)
-Then the curriculum changed.
-The 2024 to 2030 Heritage-Based Curriculum Framework replaced the old one — and every old template became obsolete overnight.
+Zimbabwe's curriculum changed overnight.
+The 2024 to 2030 Heritage-Based Curriculum Framework replaced the old one — every old template became obsolete.
 
 SCENE 4 — INTRODUCE GWARA (0:28-0:38)
 This is Gwara.
-The same sixteen schemes, generated in seconds each — grounded strictly in the real, official ZIMSEC syllabus.
+The same schemes of work, generated in seconds each — grounded strictly in the real, official ZIMSEC syllabus.
 
 SCENE 5 — TRUST MECHANISM (0:38-0:46)
 Every generated week is checked automatically against the syllabus before a teacher ever sees it.
@@ -27,12 +27,12 @@ No invented topics.
 
 SCENE 6 — CHAIN OF TRUST (0:46-0:56)
 The teacher submits. The head reviews it, with an AI coverage check.
-District and provincial officials get visibility — across every school, not just one.
+Visibility across every school — not just one.
 
 SCENE 7 — SCALE AND CLOSE (0:56-1:10)
 One hundred forty-five thousand, six hundred and ten teachers.
-Eleven thousand, seven hundred and ninety-three schools across Zimbabwe.
-This is the time they could get back.
+Eleven thousand, seven hundred and ninety-three schools nationwide.
+That's the time Zimbabwe could reclaim.
 
 Gwara.
 Time back. Curriculum covered. Every term.
@@ -40,6 +40,11 @@ Time back. Curriculum covered. Every term.
 ---
 
 NOTES
-- Numbers are spoken in full (e.g. "sixteen", not "16") for natural narration.
+- No exact "sixteen schemes" claim — that figure was anecdotal from one
+  teacher, not a verified national number, so it was dropped from Scene 1
+  and Scene 2 in favor of the confirmed facts (three hours/scheme, almost
+  fifty hours/term, and the two national stats in Scene 7).
+- Numbers are spoken in full (e.g. "three", not "3") for natural narration.
 - No claims, statistics, or beats beyond what's listed above.
-- This file is a reference for recording/TTS; the Remotion build does not generate audio.
+- This file is a reference for recording/TTS; the Remotion build does not
+  generate audio.
